@@ -1,11 +1,23 @@
 body {
     background-color: #A60F0F;
     font-family: 'Roboto', sans-serif;
-    margin: auto;
+    margin: 0;
+    /* margin: auto; this is removing the 8px margin on the body - is this necessary?*/
+}
+
+p {
+    margin: 0;
+    width: 300px;
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    color:white;
+    font-size: 30px;
 }
 
 h1, h2 {
     margin: 0;
+    min-width: 470px;
 }
 
 h1 {
@@ -15,25 +27,23 @@ h1 {
     padding-top: 50px;
 }
 
-h1, h2 {
-    min-width: 470px;
-}
-
 h2 {
     text-align: center;
     font-size: 40px;
+    margin-bottom: 100px;
 }
 
 ul {
     max-width: 1450px;
-    margin: 100px auto;
+    margin: auto;
     padding: 0;
-    
+    margin-bottom: 10px;
 }
+
 li {
     list-style-type: none;
-    background-color: black;
-    margin: 0 80px 20px 80px;
+    /* background-color: black; needed to darken image later? */
+    margin: 0 80px;
     text-align: center;
     border: black solid 10px;
     width: 300px;
@@ -43,15 +53,34 @@ li {
 a {
     text-decoration: none;
     color: white;
-    font-size: 30px;
+    /* width: 300px; */
+    /* height: 300px; */
+    /* display: inline-block; */
+    opacity: 0.2;
+}
+
+a:hover {
+    opacity: 1;
 }
 
 img {
     width: 100%;
     height: auto;
-    opacity: 0.2;
+    display: block;
+    /* opacity: 0.2; */
 }
 
-img:hover {
+/* img:hover {
     opacity: 1;
+} */
+
+div {
+    /* display: inline-block;
+    max-width: 1450px; */
+    width: 300px;
+}
+
+.box {
+    background-color: rgb(0, 0, 0);
+    position: relative;
 }
