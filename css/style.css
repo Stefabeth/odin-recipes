@@ -1,62 +1,53 @@
+/* BASE STYLES */
+
 body {
     background-color: #A60F0F;
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    /* margin: auto; this is removing the 8px margin on the body - is this necessary?*/
 }
 
-p {
-    margin: 0;
-    width: 300px;
-    position: absolute;
-    top: 40%;
-    text-align: center;
-    color:white;
-    font-size: 30px;
-}
-
-h1, h2 {
+h1,
+h2 {
     margin: 0;
     min-width: 470px;
+    text-align: center;
 }
 
 h1 {
     font-family: 'Pattaya', sans-serif;
     font-size: 80px;
-    text-align: center;
     padding-top: 50px;
     text-shadow: 3px 1px white;
 }
 
 h2 {
-    text-align: center;
     font-size: 40px;
     margin-bottom: 100px;
 }
 
+p {
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    width: 300px;
+}
+
 ul {
-    max-width: 1450px;
     margin: auto;
+    max-width: 1450px;
     padding: 0;
-    margin-bottom: 10px;
 }
 
 li {
-    list-style-type: none;
-    /* background-color: black; needed to darken image later? */
+    border: black solid 10px;
+    display: inline-block;
     margin: 0 80px;
     text-align: center;
-    border: black solid 10px;
-    width: 300px;
-    display: inline-block;
 }
 
 a {
-    text-decoration: none;
-    color: white;
-    /* width: 300px; */
-    /* height: 300px; */
-    /* display: inline-block; */
     opacity: 0.2;
 }
 
@@ -64,22 +55,17 @@ a:hover {
     opacity: 1;
 }
 
-img {
-    width: 100%;
-    height: auto;
-    display: block;
-    /* opacity: 0.2; */
-}
-
-/* img:hover {
-    opacity: 1;
-} */
-
 div {
-    /* display: inline-block;
-    max-width: 1450px; */
     width: 300px;
 }
+
+img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+/* HOMEPAGE */
 
 .box {
     background-color: rgb(0, 0, 0);
