@@ -6,26 +6,47 @@ body {
     margin: 0;
 }
 
-h1,
-h2 {
+/* HOMEPAGE */
+
+.homepage h1,
+.homepage h2 {
     margin: 0;
     min-width: 470px;
     text-align: center;
 }
 
-h1 {
+.homepage h1 {
     font-family: 'Pattaya', sans-serif;
     font-size: 80px;
     padding-top: 50px;
     text-shadow: 3px 1px white;
 }
 
-h2 {
+.homepage h2 {
     font-size: 40px;
     margin-bottom: 100px;
 }
 
-p {
+.homepage ul {
+    margin: auto;
+    max-width: 1450px;
+    padding: 0;
+}
+
+.homepage li {
+    border: black solid 10px;
+    display: inline-block;
+    margin: 0 80px;
+    text-align: center;
+}
+
+.spotlight-box {
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    width: 300px;
+}
+
+.spotlight-box p {
     color: white;
     font-size: 30px;
     margin: 0;
@@ -34,44 +55,20 @@ p {
     width: 300px;
 }
 
-ul {
-    margin: auto;
-    max-width: 1450px;
-    padding: 0;
+.spotlight-box:hover p {
+    visibility: hidden;
 }
 
-li {
-    border: black solid 10px;
-    display: inline-block;
-    margin: 0 80px;
-    text-align: center;
-}
-
-a {
+.spotlight-box a {
     opacity: 0.2;
 }
 
-a:hover {
+.spotlight-box a:hover {
     opacity: 1;
 }
 
-div {
-    width: 300px;
-}
-
-img {
+.spotlight-box img {
     display: block;
     height: auto;
     width: 100%;
-}
-
-/* HOMEPAGE */
-
-.box {
-    background-color: rgb(0, 0, 0);
-    position: relative;
-}
-
-div.box:hover p {
-    visibility: hidden;
 }
