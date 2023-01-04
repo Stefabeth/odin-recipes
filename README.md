@@ -15,7 +15,8 @@
 
 ## Description
 
-Recipes is the first project in The Odin Project's Foundations curriculum path.
+Recipes is the first project in The Odin Project's Foundations curriculum path.<br/>
+Link to Project: https://stefabeth.github.io/odin-recipes/
 
 [Back To The Top](#odin-recipes)
 
